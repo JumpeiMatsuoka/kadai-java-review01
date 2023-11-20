@@ -6,7 +6,7 @@ public class Review01 {
         
         int nedan=1500;
         double Tax = 0.1;
-        double result = tax(nedan,Tax);
+        int result = tax(nedan,Tax);
         
         System.out.println(nedan+"の商品の税込価格は"+(nedan+(int)result)+"円（消費税は"+(int)result+"円）です。");
     }
